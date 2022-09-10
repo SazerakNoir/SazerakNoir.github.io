@@ -1,0 +1,67 @@
+* {
+    background-color:darkslategrey;
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 10px;
+    font-size:6vw;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h3 {
+    text-align: center;
+    font-size: 2.5vw;
+    margin-top:-3vw;
+}
+
+img {
+    z-index: -1;
+    max-width: 50%;
+    height: auto;
+    padding-left: 40vw;
+    
+
+}
+.generators {
+    margin-top: -30vw;
+
+}
+
+
+#results1 {
+    font-size: 1.7vw;
+    margin-left: 5vw;
+}
+
+#results2 {
+    font-size: 1.7vw;
+}
+
+#results3 {
+    font-size: 1.7vw;
+    margin-left: 5vw;
+}
+
+#drive-text {
+    font-size: 2vw;
+}
+
+#magic-text {
+    font-size: 2vw;
+}
+
+#background-text {
+    font-size: 2vw;
+}
+
+.links {
+    font-size: 2.4vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+#buy-button:hover {
+    font-weight: bold ;
+    font-size: 2.5vw;
+    
+}
