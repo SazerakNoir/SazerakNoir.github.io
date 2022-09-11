@@ -1,0 +1,48 @@
+* {
+  text-align: center;
+}
+ 
+ html, body {
+  scroll-behavior: smooth;
+ }
+ /* Style the navbar */
+
+ #navbar {
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);  
+    opacity: 70%;
+    position: fixed;
+    width: 100%;
+  }
+
+  #navbar a:hover{
+    color: rgb(35, 35, 35);
+    background-color:#f2f2f2;   
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 14px;
+    text-decoration: none;
+  
+    
+  }
+  
+  .content {
+    padding: 20px;
+    padding-top: 60px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  } 
